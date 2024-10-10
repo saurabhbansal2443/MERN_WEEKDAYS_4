@@ -3,9 +3,10 @@ import React from "react";
 const Card = (props) => {
   let { productData } = props;
   let { title, category, price, rating, thumbnail } = productData;
+
   return (
     <>
-      <div className="card card-compact bg-blue-400 w-96 shadow-xl my-4 w-[30vw] h-[55vh]">
+      <div className="card card-compact bg-blue-200 w-96 shadow-xl my-4 w-[25vw] h-[55vh]">
         <figure className="w-full h-2/4">
           <img src={thumbnail} alt="Shoes" />
         </figure>
